@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>A/Prof Kwang Cham, Department of Optometry and Vision Sciences · Publications</title>
+  <meta name="description" content="Publications, citations, venues and collaborations of A/Prof Kwang Cham, Department of Optometry and Vision Sciences, The University of Melbourne.">
+  <meta property="og:title" content="A/Prof Kwang Cham, Department of Optometry and Vision Sciences">
+  <meta property="og:description" content="Publications, citations, venues and collaborations of the team, The University of Melbourne.">
+  <meta property="og:type" content="website">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-sankey@0.12.3/dist/d3-sankey.min.js" defer></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-cloud@1.2.7/build/d3.layout.cloud.js" defer></script>
+  <script src="app.js" defer></script>
+</head>
+<body class="loading">
+  <header class="top">
+    <div class="wrap top-inner">
+      <div class="hd">
+        <div>
+          <div class="hd-inst" id="lab-inst">The University of Melbourne</div>
+          <h1 id="lab-name">A/Prof Kwang Cham<span class="sub">Department of Optometry and Vision Sciences</span></h1>
+          <p id="lab-desc" class="hd-lede"></p>
+          <p id="lab-period" class="hd-period" hidden></p>
+          <p id="lab-contact" class="hd-contact" hidden></p>
+        </div>
+        <div class="hd-links"><a class="btn" id="lab-expert" target="_blank" rel="noopener" hidden>Find an Expert profile ↗</a><span class="muted" id="lab-updated"></span></div>
+      </div>
+      <nav class="tabs" id="tabs">
+        <a href="#overview" data-tab="overview">Overview</a>
+        <a href="#member" data-tab="member">Members</a>
+        <a href="#analytics" data-tab="analytics">Analytics</a>
+        <a href="#venues" data-tab="venues">Venues</a>
+        <a href="#papers" data-tab="papers">Papers</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <div id="loading" class="loading-msg" role="status"><span class="spin" aria-hidden="true"></span>Loading publications and citations…</div>
+    <!-- ================= OVERVIEW ================= -->
+    <section id="tab-overview" class="tab">
+      <div class="sec"><h2>At a glance</h2></div>
+      <div class="kpis kpis5" id="lab-kpis"></div>
+
+      <div class="sec"><h2>Highlights</h2></div>
+      <div class="grid2">
+        <div class="card"><h3>Latest publications</h3><p class="note">Newest papers first, with the venue's rank.</p><ul class="feed" id="hl-latest"></ul></div>
+        <div class="card"><h3 id="hl-top-title">Most cited recent work</h3><p class="note">Papers from the last three years with the most citations (Google Scholar where matched).</p><ul class="feed" id="hl-top"></ul></div>
+      </div>
+
+      <div class="sec"><h2>Impact</h2></div>
+      <div class="card">
+        <div class="card-head"><div><h3>Citations</h3><p class="note" style="margin:0" id="cit-note"></p></div>
+          <div class="seg" id="cit-mode" role="group" aria-label="View"><button data-m="new" class="on">New each year</button><button data-m="total">Total to date</button></div></div>
+        <div id="cit-chart" class="d3chart"></div>
+      </div>
+
+      <div class="sec"><h2>Output &amp; quality</h2></div>
+      <div class="grid3">
+        <div class="card">
+          <div class="card-head"><div><h3>What we publish, by year</h3><p class="note" style="margin:0">Papers by type of output; each paper counted once.</p></div>
+            <div class="seg" id="mix-mode" role="group" aria-label="View"><button data-m="n" class="on">Papers</button><button data-m="p">Share</button></div></div>
+          <div id="mix-chart" class="d3chart"></div><div class="legend plain" id="mix-legend"></div>
+        </div>
+        <div class="card"><h3>Venue quality</h3><p class="note" id="q-note"></p><div class="qual" id="qual"></div>
+          <p style="margin:10px 0 0;font-size:13px"><a href="#venues">All venues and ranks →</a></p></div>
+      </div>
+
+      <div class="sec"><h2>Working together</h2></div>
+      <div class="grid3">
+        <div class="card"><h3>Papers written by two or more team members</h3><p class="note">Hover a bar for its share of all the team's papers that year.</p><div id="joint-chart" class="d3chart"></div></div>
+        <div class="card"><h3>Strongest partnerships</h3><p class="note" id="pairs-note"></p><ul class="pairs" id="pairs"></ul>
+          <p style="margin:10px 0 0;font-size:13px"><a href="#analytics/team">Explore the team network →</a></p></div>
+      </div>
+
+      <div class="sec"><h2>Research &amp; reach</h2></div>
+      <div class="card" id="themes-card" hidden>
+        <div class="card-head"><div><h3>What we work on</h3>
+          <p class="note" style="margin:0" id="themes-note"></p></div></div>
+        <div class="themes">
+          <div id="cloud"></div>
+          <div><h3 style="font-size:13px;margin:4px 0 8px">Top 10 themes <span class="muted" style="font-weight:400">· by members</span></h3><ol class="top10" id="top10"></ol>
+            <div class="legend" id="cloud-legend" style="padding:10px 0 0;border:0"></div></div>
+        </div>
+        <div class="plist" id="cloud-papers" hidden></div>
+      </div>
+      <div class="card" id="map-card" hidden>
+        <div class="card-head"><div><h3 id="map-title">Where our work is cited</h3><p class="note" id="map-note" style="margin:0"></p></div></div>
+        <div class="timeline map-timeline">
+          <button id="map-play" class="play" aria-label="Play the map year by year">▶ Play</button>
+          <input id="map-year" type="range" aria-label="Year" step="1">
+          <span id="map-year-label" class="yr-label"></span>
+        </div>
+        <div class="map-layout">
+          <div class="map-stage"><div id="map"></div><div id="map-year-big" class="yr-big"></div>
+            <div class="map-legend" id="map-legend"></div></div>
+          <div><h3 style="font-size:13px;margin:4px 0 8px">Top citing countries</h3><div id="map-top"></div></div>
+        </div>
+      </div>
+      <div class="sec"><h2>People</h2></div>
+      <div class="card">
+        <div class="card-head"><div><h3>Who published when</h3><p class="note" style="margin:0" id="heat-note">Each row is a member, each column a year. Darker = more.</p></div>
+          <div class="filters"><label>Order <select id="heat-sort" aria-label="Order rows by">
+            <option value="recent">Most in the last 3 years</option><option value="total">Most in total</option>
+            <option value="first">By first publication</option><option value="name">Alphabetical</option></select></label>
+          <div class="seg" id="heat-metric" role="group" aria-label="Measure">
+            <button data-m="pubs" class="on">Papers</button><button data-m="cites">Citations received</button></div></div></div>
+        <div class="heat-wrap"><div id="heatmap"></div></div>
+      </div>
+      <div class="card" id="history-card" hidden><h3>Monthly snapshots</h3><p class="note">Recorded every time the data refreshes, so this history becomes more detailed month by month.</p><div class="chart"><canvas id="c-history"></canvas></div></div>
+      <div class="card">
+        <div class="card-head"><h3>Members</h3></div>
+        <p class="note">Sorted by citations in the last three years; click any column to re-sort. <b>Journal</b> and <b>Conf.</b> count papers by type, from OpenAlex and Google Scholar. <b>Pace</b> projects this year's citations to a full year and compares it with last year.</p>
+        <div class="table-wrap"><table class="tbl" id="members-table"></table></div>
+      </div>
+    </section>
+
+    <!-- ================= MEMBER ================= -->
+    <section id="tab-member" class="tab" hidden>
+      <div class="filters">
+        <select id="member-select" aria-label="Member"></select>
+        <span id="member-links" class="links"></span>
+      </div>
+      <div class="kpis" id="member-kpis"></div>
+      <div class="grid2">
+        <div class="card watch" id="h-watch"></div>
+        <div class="card watch" id="i10-watch"></div>
+      </div>
+      <div class="grid2">
+        <div class="card"><h3>Citations received per year</h3><div class="chart"><canvas id="c-m-cby"></canvas></div></div>
+        <div class="card"><h3>Total citations over time</h3><div class="chart"><canvas id="c-m-cum"></canvas></div></div>
+      </div>
+      <div class="grid2">
+        <div class="card"><h3>Papers published per year</h3><div class="chart"><canvas id="c-m-pubs"></canvas></div></div>
+        <div class="card"><h3>Top venues</h3><div id="m-venues"></div></div>
+      </div>
+      <div class="card"><div class="card-head"><h3>Collaborators in the lab</h3><a id="m-net-link" href="#analytics">Network &amp; where the work goes →</a></div><div id="m-collab" class="chips"></div></div>
+      <div class="card"><h3>Papers</h3><div class="table-wrap"><table class="tbl" id="m-papers"></table></div></div>
+    </section>
+
+    <!-- ================= NETWORK ================= -->
+    <section id="tab-analytics" class="tab" hidden>
+      <div class="filters">
+        <select id="net-member" aria-label="Member"></select>
+        <label id="net-min-wrap">Show co-authors with at least
+          <select id="net-min"><option value="1" selected>1</option><option value="2">2</option><option value="3">3</option><option value="5">5</option></select>
+          joint paper(s)</label>
+        <input id="net-search" type="search" placeholder="Find a person…" aria-label="Find a person">
+      </div>
+      <div class="net-layout">
+        <div class="card net-card">
+          <div class="timeline">
+            <button id="net-play" class="play" aria-label="Play the network growing year by year">▶ Play</button>
+            <input id="net-year" type="range" aria-label="Year" step="1">
+            <span id="net-year-label" class="yr-label"></span>
+          </div>
+          <div class="net-stage"><div id="network"></div><div id="net-year-big" class="yr-big"></div><div id="net-stats" class="net-stats"></div>
+            <div class="zoom-ctl"><button id="net-zoom-in" aria-label="Zoom in">+</button><button id="net-zoom-out" aria-label="Zoom out">−</button><button id="net-fit" aria-label="Fit to view" title="Fit to view">⤢</button><button id="net-unpin" aria-label="Release moved circles" title="Put moved circles back">↺</button></div>
+          </div>
+          <div class="legend"><span><i class="dot ego"></i>Selected person</span><span><i class="dot lab"></i>Lab member</span><span><i class="dot alum"></i>Alumni</span><span><i class="dot ext"></i>Outside collaborator</span></div>
+          <p class="net-hint" id="net-hint">Circles sit closer and grow larger the more papers someone shares with the selected person; lines thicken with papers written together. Swipe sideways (or drag the slider) to move through the years · pinch to zoom · drag to pan.</p>
+        </div>
+        <aside class="card" id="net-info"><p class="muted">Click a person to see their collaborations.</p></aside>
+      </div>
+      <div class="card" id="sankey-card">
+        <div class="card-head"><div><h3 id="sk-title">Where the work goes</h3>
+          <p class="note" style="margin:0">Type of output → venue quality tier → venue. Width = <span id="sk-unit">papers</span>. Hover to trace a flow; click any block to list its papers.</p></div>
+          <div class="filters">
+            <label>From <select id="sk-from" aria-label="From year"></select></label><label>to <select id="sk-to" aria-label="To year"></select></label>
+            <div class="seg" id="sk-metric" role="group" aria-label="Measure"><button data-m="n" class="on">Papers</button><button data-m="c">Citations</button></div>
+          </div></div>
+        <div class="sk-scroll"><div id="sankey"></div></div>
+        <div class="legend" id="sk-legend" style="border:0;padding:8px 0 0"></div>
+        <p class="note" id="sk-foot"></p>
+        <div class="plist" id="sk-papers" hidden></div>
+      </div>
+      <div class="grid2">
+        <div class="card"><h3 id="net-side-a">Collaborating institutions</h3><p class="note">Papers co-authored with someone from each institution.</p><div id="inst-bars"></div></div>
+        <div class="card"><h3 id="net-side-b">Co-authors</h3><div class="table-wrap"><table class="tbl" id="ext-table"></table></div></div>
+      </div>
+    </section>
+
+    <!-- ================= VENUES ================= -->
+    <section id="tab-venues" class="tab" hidden>
+      <div class="filters">
+        <label>Papers from <select id="venue-from" aria-label="From year"></select></label>
+        <label>to <select id="venue-to" aria-label="To year"></select></label>
+        <select id="venue-type" aria-label="Venue type"><option value="">All types</option></select>
+        <select id="venue-member" aria-label="Member"><option value="">Whole team</option></select>
+        <input id="venue-search" type="search" placeholder="Search venues…" aria-label="Search venues">
+      </div>
+      <div class="kpis" id="venue-kpis"></div>
+      <div class="card" id="top-card">
+        <div class="card-head"><div><h3>Our top-ranked venues</h3><p class="note" id="top-sub" style="margin:0"></p></div>
+          <div class="chips" id="top-ranks" role="group" aria-label="Ranks to show"></div></div>
+        <p class="note">Ranks you set in venues.yaml, or found in ICORE (conferences), SCImago quartiles (journals) and the CORE journal list. Dashed badges are matched automatically and not yet reviewed. Follows the year, type, member and search filters above.</p>
+        <div id="top-venues" class="tv-grid"></div>
+        <div id="top-more" class="tv-more"></div>
+      </div>
+      <div class="card"><div class="card-head"><h3>Where the lab publishes</h3><span class="muted" id="venue-count" style="font-size:13px"></span></div>
+        <div class="table-wrap"><table class="tbl" id="venue-table"></table></div></div>
+    </section>
+
+    <!-- ================= PAPERS ================= -->
+    <section id="tab-papers" class="tab" hidden>
+      <div class="filters">
+        <input id="p-search" type="search" placeholder="Search titles, venues, authors…" aria-label="Search papers">
+        <select id="p-member" aria-label="Member"><option value="">All members</option></select>
+        <select id="p-year" aria-label="Year"><option value="">All years</option></select>
+        <span id="p-count" class="muted"></span>
+      </div>
+      <div class="card"><div class="table-wrap"><table class="tbl" id="papers-table"></table></div></div>
+    </section>
+  </main>
+
+  <footer class="wrap muted foot" id="foot"></footer>
+  <div id="tooltip" class="tooltip" hidden></div>
+</body>
+</html>
