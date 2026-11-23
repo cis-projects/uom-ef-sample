@@ -1,0 +1,572 @@
+{
+ "cncdOe4AAAAJ": {
+  "fetched_at": "2026-11-23T00:49:49+00:00",
+  "name": "Kwang Cham",
+  "cited_by": {
+   "table": [
+    {
+     "citations": {
+      "all": 377,
+      "since_2021": 328
+     }
+    },
+    {
+     "h_index": {
+      "all": 11,
+      "since_2021": 10
+     }
+    },
+    {
+     "i10_index": {
+      "all": 12,
+      "since_2021": 11
+     }
+    }
+   ],
+   "graph": [
+    {
+     "year": 2008,
+     "citations": 2
+    },
+    {
+     "year": 2009,
+     "citations": 2
+    },
+    {
+     "year": 2010,
+     "citations": 1
+    },
+    {
+     "year": 2011,
+     "citations": 3
+    },
+    {
+     "year": 2012,
+     "citations": 3
+    },
+    {
+     "year": 2013,
+     "citations": 4
+    },
+    {
+     "year": 2014,
+     "citations": 6
+    },
+    {
+     "year": 2015,
+     "citations": 5
+    },
+    {
+     "year": 2016,
+     "citations": 7
+    },
+    {
+     "year": 2017,
+     "citations": 5
+    },
+    {
+     "year": 2018,
+     "citations": 1
+    },
+    {
+     "year": 2019,
+     "citations": 7
+    },
+    {
+     "year": 2020,
+     "citations": 1
+    },
+    {
+     "year": 2021,
+     "citations": 6
+    },
+    {
+     "year": 2022,
+     "citations": 23
+    },
+    {
+     "year": 2023,
+     "citations": 43
+    },
+    {
+     "year": 2024,
+     "citations": 63
+    },
+    {
+     "year": 2025,
+     "citations": 96
+    },
+    {
+     "year": 2026,
+     "citations": 91
+    }
+   ]
+  },
+  "articles": [
+   {
+    "title": "Educational strategies in the health professions to mitigate cognitive and implicit bias impact on decision making: a scoping review",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:9ZlFYXVOiuMC",
+    "authors": "J Thompson, H Bujalka, S McKeever, A Lipscomb, S Moore, N Hill, ...",
+    "publication": "BMC Medical Education 23 (455), 2023",
+    "year": 2023,
+    "cites": 90
+   },
+   {
+    "title": "Digital preferences and perceptions of students in health professional courses at a leading Australian university: A baseline for improving digital skills and competencies in …",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:9yKSN-GCB0IC",
+    "authors": "K Cham, ML Edwards, L Kruesi, T Celeste, T Hennessey",
+    "publication": "Australasian Journal of Educational Technology 38 (1), 69-86, 2022",
+    "year": 2022,
+    "cites": 53
+   },
+   {
+    "title": "Task-induced stress and motivation decrease foveation-period durations in infantile nystagmus syndrome",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:u5HHmVD_uO8C",
+    "authors": "KM Cham, AJ Anderson, LA Abel",
+    "publication": "Investigative ophthalmology & visual science 49 (7), 2977-2984, 2008",
+    "year": 2008,
+    "cites": 34
+   },
+   {
+    "title": "Integrating interprofessional electronic medical record teaching in preregistration healthcare degrees: A case study",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:aqlVkmm33-oC",
+    "authors": "Z Lokmic-Tomkins, K Gray, L Cheshire, ...., KM Cham",
+    "publication": "International Journal of Medical Informatics 169, 2023",
+    "year": 2023,
+    "cites": 30
+   },
+   {
+    "title": "Factors influencing the experience of oscillopsia in infantile nystagmus syndrome",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:Tyk-4Ss8FVUC",
+    "authors": "KM Cham, AJ Anderson, LA Abel",
+    "publication": "Investigative ophthalmology & visual science 49 (8), 3424-3431, 2008",
+    "year": 2008,
+    "cites": 20
+   },
+   {
+    "title": "The Limited Level of Digital Skills and Competencies of Optometry Students",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:Y0pCki6q_DkC",
+    "authors": "KP Nguyen, AK Luke, Y Cheng, A John, KM Cham",
+    "publication": "Journal of Information Technology Education: Research 21, 97-114, 2022",
+    "year": 2022,
+    "cites": 15
+   },
+   {
+    "title": "Surgical interventions for infantile nystagmus syndrome: Review",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:W7OEmFMy1HYC",
+    "authors": "KM Cham, LA Abel, L Busija, L Kowal, AB Zipori, D Laura E",
+    "publication": "Cochrane Database of Systematic Reviews, 2021",
+    "year": 2021,
+    "cites": 15
+   },
+   {
+    "title": "Pilot study: Thinking outside the square in cultivating “soft skills”—Going beyond the standard optometric curriculum",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:qjMakFHDy7sC",
+    "authors": "KM Cham, H Gaunt, C Delany",
+    "publication": "Optometry and Vision Science 97 (11), 962-969, 2020",
+    "year": 2020,
+    "cites": 15
+   },
+   {
+    "title": "Perception of coherent motion in infantile nystagmus syndrome",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:IjCSPb-OGe4C",
+    "authors": "B Dai, KM Cham, LA Abel",
+    "publication": "Investigative ophthalmology & visual science 63 (1), 31-31, 2022",
+    "year": 2022,
+    "cites": 13
+   },
+   {
+    "title": "The equivalency of the binocular indirect ophthalmoscope simulator to peer practice: a pilot study",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:UeHWp8X0CEIC",
+    "authors": "A Douglass, KM Cham, A Jaworski, A Maillet, A Cochrane, JA Armitage",
+    "publication": "Optometry and Vision Science 98 (11), 1239-1247, 2021",
+    "year": 2021,
+    "cites": 13
+   },
+   {
+    "title": "Velocity discrimination in infantile nystagmus syndrome",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:zYLM7Y9cAGgC",
+    "authors": "B Dai, KM Cham, LA Abel",
+    "publication": "Investigative Ophthalmology & Visual Science 62 (10), 35-35, 2021",
+    "year": 2021,
+    "cites": 12
+   },
+   {
+    "title": "A digital resource to assess clinical competency",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:u-x6o8ySG0sC",
+    "authors": "KM Cham, AL Cochrane",
+    "publication": "The Clinical Teacher 17 (2), 153-158, 2020",
+    "year": 2020,
+    "cites": 11
+   },
+   {
+    "title": "Evaluating perceived technology self-efficacy and telehealth acceptance in optometry students",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:-f6ydRqryjwC",
+    "authors": "JJ Lek, M Merolli, KM Cham",
+    "publication": "Clinical and Experimental Optometry, 2024",
+    "year": 2024,
+    "cites": 7
+   },
+   {
+    "title": "Digital Technologies Easing the Learning Curve in the Transition to Practicum",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:QIV2ME_5wuYC",
+    "authors": "C Tiffany, AI Rita, K Gyeongdong, K Nicholas Karol, W Daniel, Z Min Kyu, ...",
+    "publication": "Journal of Information Technology Education: Innovations in Practice 22, 91-107, 2023",
+    "year": 2023,
+    "cites": 6
+   },
+   {
+    "title": "How six optometry institutions in the Asia-Pacific region adapted their teachings during the COVID-19 pandemic",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:2osOgNQ5qMEC",
+    "authors": "JJ Lek, HS Lim, A Narayanan, JM Neuville, K Srinivasan, JSM Yang, ...",
+    "publication": "Clinical and Experimental Optometry 105 (6), 658-663, 2022",
+    "year": 2022,
+    "cites": 6
+   },
+   {
+    "title": "Oscillopsia and the influence of stress and motivation in fusion maldevelopment nystagmus syndrome",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:d1gkVwhDpl0C",
+    "authors": "KM Cham, AJ Anderson, LA Abel",
+    "publication": "Investigative Ophthalmology & Visual Science 54 (3), 2004-2010, 2013",
+    "year": 2013,
+    "cites": 6
+   },
+   {
+    "title": "Developing a professionalism curriculum framework for teaching optometry students in Australia and New Zealand",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:qxL8FJ1GzNcC",
+    "authors": "J Duffy, KM Cham, M Colasante, A Cochrane",
+    "publication": "Clinical and Experimental Optometry, 2022",
+    "year": 2022,
+    "cites": 4
+   },
+   {
+    "title": "Using technology to enhance student learning and clinical teaching outcomes",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:IWHjjKOFINEC",
+    "authors": "K Cham",
+    "publication": null,
+    "year": 2017,
+    "cites": 4
+   },
+   {
+    "title": "Clinician Awareness of Stickler Syndromes Among Australian Allied Health Care Professionals",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:qUcmZB5y_30C",
+    "authors": "AC Britten-Jones, LN Ayton, K Graydon, JO Boyce, R Braden, R Dawkins, ...",
+    "publication": "J Multidisciplinary Healthcare 17, 1755-1768., 2024",
+    "year": 2024,
+    "cites": 3
+   },
+   {
+    "title": "Optical coherence tomography angiography findings in a case of adult-onset vitelliform dystrophy",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:eQOLeE2rZwMC",
+    "authors": "J Wang, K Snibson, KM Cham",
+    "publication": "Clinical and Experimental Optometry 102, 314-342, 2019",
+    "year": 2019,
+    "cites": 3
+   },
+   {
+    "title": "A case of commotio retinae following champagne cork injury",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:WF5omc3nYNoC",
+    "authors": "KM Cham, DN Di Pasquale, A Jaworski",
+    "publication": "Clinical and Experimental Optometry 101, 140-142, 2018",
+    "year": 2018,
+    "cites": 3
+   },
+   {
+    "title": "Modelling systematic evaluation of technology enhanced learning in optometric education in Australia and New Zealand",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:R3hNpaxXUhUC",
+    "authors": "A Jaworski, AG Douglass, A Cochrane, BN Nguyen, KM Cham",
+    "publication": "Clinical and Experimental Optometry 109 (5), 828-843, 2026",
+    "year": 2026,
+    "cites": 2
+   },
+   {
+    "title": "Learning professionalism using creativity and diversity concepts",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:hC7cP41nSMkC",
+    "authors": "KM Cham, A Polster, G Morrow",
+    "publication": "Clinical and Experimental Optometry 108 (3), 347-353, 2025",
+    "year": 2025,
+    "cites": 2
+   },
+   {
+    "title": "Student access patterns for an online clinical skills procedural video library",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:mB3voiENLucC",
+    "authors": "A Jaworski, KM Cham, C Watt, AG Douglass",
+    "publication": "Clinical and Experimental Optometry, 2024",
+    "year": 2024,
+    "cites": 2
+   },
+   {
+    "title": "A new initiative in synchronous international learning - A Health Humanities Global Classroom",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:hFOr9nPyWt4C",
+    "authors": "H Gaunt, HT Chng, B Shea, Rosie: Loveridge, KM Cham, S Chan, ...",
+    "publication": "ASCILITE, 601-606, 2024",
+    "year": 2024,
+    "cites": 2
+   },
+   {
+    "title": "Use of an automated feedback application to improve communication skills",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:Zph67rFs4hoC",
+    "authors": "KM Cham, JJ Lek, JKH Lim, AL Cochrane",
+    "publication": "MedEdPublish 7, 11, 2018",
+    "year": 2018,
+    "cites": 2
+   },
+   {
+    "title": "Reflective practice in optometry education",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:r0BpntZqJG4C",
+    "authors": "R Lim, B Vaughan, R Woodward-Kron, KM Cham",
+    "publication": "Clinical and Experimental Optometry, 1-13, 2026",
+    "year": 2026,
+    "cites": 1
+   },
+   {
+    "title": "Visual search in infantile nystagmus syndrome",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:L8Ckcad2t8MC",
+    "authors": "B Dai, LA Abel, KM Cham",
+    "publication": "Clinical and Experimental Optometry, 2023",
+    "year": 2023,
+    "cites": 1
+   },
+   {
+    "title": "Challenging the self in the museum: Examining the development of professional identity and professional well-being for clinical students",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:TFP_iSt0sucC",
+    "authors": "KM Cham, R McDougall, H Gaunt",
+    "publication": "Object-Based Learning and Well-Being, 28-42, 2020",
+    "year": 2020,
+    "cites": 1
+   },
+   {
+    "title": "Salmon-coloured lesions mimicking conjunctival papillae: an unusual presentation of unilateral conjunctival lymphoma in a young man",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:ufrVoPGSRksC",
+    "authors": "KM Cham, H Riad",
+    "publication": "Clinical and Experimental Optometry 99, 289 – 292, 2016",
+    "year": 2016,
+    "cites": 1
+   },
+   {
+    "title": "Binocular visual function of young myopic adults following cessation of long-term atropine use: preliminary learnings from a pilot case-control cross-sectional study",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:iH-uZ7U-co4C",
+    "authors": "A Jaworski, HY Kuo, KM Cham, YW Chiang",
+    "publication": "Ophthalmic and Physiological Optics, 1-6, 2026",
+    "year": 2026,
+    "cites": 0
+   },
+   {
+    "title": "Impact of a New Virtual Health Humanities Approach for Collaborative Online International Learning: Mixed Methods Study",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:k_IJM867U9cC",
+    "authors": "HM Gaunt, KM Cham, F Knothe, CH Lim, R Shea, HT Chng",
+    "publication": "Interactive Journal of Medical Research 15 (1), e84474, 2026",
+    "year": 2026,
+    "cites": 0
+   },
+   {
+    "title": "Enhancing Undergraduate Students' Lab Preparedness: The Role of Virtual Environments in Managing Cognitive Load",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:isC4tDSrTZIC",
+    "authors": "B Adelaide, KM Cham, AY Fong",
+    "publication": "International Journal of Innovation in Science and Mathematics Education 34 (1), 2026",
+    "year": 2026,
+    "cites": 0
+   },
+   {
+    "title": "Assessing planetary health in healthcare: a theoretical domains framework-guided cross-sectional survey of beliefs, knowledge, and motivation.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:JV2RwH3_ST0C",
+    "authors": "PS Rivera ZTC, Cavallaro M, Brock T, Chanchlani S, Clarke J, Cham KM, Dobson ...",
+    "publication": "Focus on Health Professional Education: A Multi-Professional Journal, 2026",
+    "year": 2026,
+    "cites": 0
+   },
+   {
+    "title": "Eye Movements During Traditional Chinese Text Reading in 9–12-Year-Old Boys with Autism Spectrum Disorder and Without Intellectual Disability in Taiwan: Observations from an …",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:M3NEmzRMIkIC",
+    "authors": "HH Kuo HY, Tsai JD, Sun HY, Ho, MC, Cham KM, Wu TH, Hsieh WH, Lu",
+    "publication": "Autism & Developmental Language Impairments, 2026",
+    "year": 2026,
+    "cites": 0
+   },
+   {
+    "title": "Frequency, Severity and Ergonomic Awareness of Work-Related Musculoskeletal Disorders Among Australian Optometrists: A Cross-Sectional Survey.",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:bEWYMUwI8FkC",
+    "authors": "EA Appathurai, KM Cham, PVS Lee, et al",
+    "publication": "Ophthalmic Physiol. Opt., 2026",
+    "year": 2026,
+    "cites": 0
+   },
+   {
+    "title": "The effectiveness of virtual reality gamification on improving visual function of children with attention deficit hyperactivity disorder",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:j3f4tGmQtD8C",
+    "authors": "HYK Kuo, HH Lu, ZS Chan, JD Cham, Kwang Meng: Tsai, HY Sun",
+    "publication": "Applied Neuropsychology. Child 19, 1-9, 2026",
+    "year": 2026,
+    "cites": 0
+   },
+   {
+    "title": "Dementia Care Research and Psychosocial Factors",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:4JMBOYKVnBMC",
+    "authors": "MEF Piano, BN Nguyen, A Padhye, K Cham, L Joubert, AM McKendrick",
+    "publication": "Alzheimer's & dementia: the journal of the Alzheimer's Association 21 (S4 …, 2025",
+    "year": 2025,
+    "cites": 0
+   },
+   {
+    "title": "Evidence‐Based Education for Optometrists Working with Patients with Dementia",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:_Qo2XoVZTnwC",
+    "authors": "MEF Piano, BN Nguyen, A Padhye, K Cham, L Joubert, AM McKendrick",
+    "publication": "Alzheimer's & Dementia 21, e098701, 2025",
+    "year": 2025,
+    "cites": 0
+   },
+   {
+    "title": "How optometrists are embracing Telehealth in Australia-identifying uses, attitudes, acceptance barriers and facilitators",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:TQgYirikUcIC",
+    "authors": "JJ Lek, M Merolli, P Deng, A Dev, J Ding, TT Ding, LS Kumar, K Lin, ...",
+    "publication": null,
+    "year": 2025,
+    "cites": 0
+   },
+   {
+    "title": "Developing Student Digital Literacies Through Insights from Educators and Employers",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:RHpTSmoSYBkC",
+    "authors": "KM Cham, L Kruesi, T Celeste, T Hennessey",
+    "publication": "Libraries Empowering Society through Digital Literacy, 180-196, 2025",
+    "year": 2025,
+    "cites": 0
+   },
+   {
+    "title": "Clinician Awareness of Stickler Syndromes Among Australian Allied Health Care Professionals",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:maZDTaKrznsC",
+    "authors": "K Cham",
+    "publication": "Dove Medical Press, 2024",
+    "year": 2024,
+    "cites": 0
+   },
+   {
+    "title": "Educational strategies in the health professions to mitigate cognitive and implicit bias impact on decision making: a scoping",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:ZeXyd9-uunAC",
+    "authors": "J Thompson, H Bujalka, S McKeever, A Lipscomb, S Moore, N Hill, ...",
+    "publication": null,
+    "year": 2023,
+    "cites": 0
+   },
+   {
+    "title": "Velocity discrimination in infantile nystagmus syndrome (INS)",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:_kc_bZDykSQC",
+    "authors": "B Dai, KM Cham, LA Abel",
+    "publication": "Investigative Ophthalmology & Visual Science 62 (8), 3336-3336, 2021",
+    "year": 2021,
+    "cites": 0
+   },
+   {
+    "title": "Challenging the self in the museum: examining the development of professional identity and professional wellbeing for contrasting cohorts of clinical and public health students",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:_FxGoFyzp5QC",
+    "authors": "KM Cham, R McDougall, H Gaunt",
+    "publication": "Object-Based Learning and Well-Being: Exploring Material Connections, 2020",
+    "year": 2020,
+    "cites": 0
+   },
+   {
+    "title": "Surgical interventions for infantile nystagmus syndrome: Protocol",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:YsMSGLbcyi4C",
+    "authors": "KM Cham, LA Abel, L Busija, L Kowal, AB Zipori, D Laura E",
+    "publication": "Cochrane Database of Systematic Reviews, 2019",
+    "year": 2019,
+    "cites": 0
+   },
+   {
+    "title": "Posterior Cerebral Artery Infarct with Haemorrhagic Transformation",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:5nxA0vEk-isC",
+    "authors": "KM Cham, J Wang",
+    "publication": "Int J Ophthalmol Eye Res 5 (9), 348-350, 2017",
+    "year": 2017,
+    "cites": 0
+   },
+   {
+    "title": "Posterior Uveal Melanoma",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:hqOjcs7Dif8C",
+    "authors": "KM Cham, L Tram",
+    "publication": "Int J Ophthalmol Eye Res 4 (11), 263-265, 2016",
+    "year": 2016,
+    "cites": 0
+   },
+   {
+    "title": "EYE MOVEMENTS, STRABISMUS, AMBLYOPIA, AND NEURO-OPHTHALMOLOGY-Task-Induced Stress and Motivation Decrease Foveation-Period Durations in Infantile Nystagmus Syndrome-Although it …",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:YOwf2qJgpHMC",
+    "authors": "KM Cham, AJ Anderson, LA Abel",
+    "publication": "Investigative ophthalmology & visual science 49 (7), 2977, 2008",
+    "year": 2008,
+    "cites": 0
+   },
+   {
+    "title": "Impact of Visual Input and Task Demands on Infantile Forms of Nystagmus",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:Se3iqnhoufwC",
+    "authors": "KM Cham",
+    "publication": "University of Melbourne, Department of Optometry and Vision Sciences, 2008",
+    "year": 2008,
+    "cites": 0
+   },
+   {
+    "title": "DIGITAL TECHNOLOGIES EASING THE LEARNING CURVE",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:dhFuZR0502QC",
+    "authors": "T Chan, R Abou-Issa, G Kim, D Wong, MK Zu, J Bowne, K Hellyer, ...",
+    "publication": null,
+    "year": null,
+    "cites": 0
+   },
+   {
+    "title": "A web-based movie library of optometric procedures enhances student learning",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:mVmsd5A6BfQC",
+    "authors": "A Jaworski, K Cham, A Cochrane, AJ Vingrys",
+    "publication": null,
+    "year": null,
+    "cites": 0
+   },
+   {
+    "title": "Development of an interactive web-‐based movie library of optometric procedures, with self and peer review to enhance student learning",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:M3ejUd6NZC8C",
+    "authors": "A Jaworski, K Cham, A Cochrane, AJ Vingrys",
+    "publication": null,
+    "year": null,
+    "cites": 0
+   },
+   {
+    "title": "enhances student learning",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:KlAtU1dfN6UC",
+    "authors": "A Jaworski, K Cham, A Cochrane, AJ Vingrys",
+    "publication": null,
+    "year": null,
+    "cites": 0
+   },
+   {
+    "title": "Stream 1: Clinical Learning",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:kNdYIx-mwKoC",
+    "authors": "JJ Lek, HS Lim, A Narayanan, J Neuville, K Srinivasan, J Shan, M Yang, ...",
+    "publication": null,
+    "year": null,
+    "cites": 0
+   },
+   {
+    "title": "Expansion of an interactive web-based movie library to encompass routine and advanced optometric clinic procedures and featuring on-line student based peer and self review …",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:8k81kl-MbHgC",
+    "authors": "A Jaworski, K Cham",
+    "publication": null,
+    "year": null,
+    "cites": 0
+   },
+   {
+    "title": "A sustainable digital assessment tool for post-graduate health-science students in Optometry, Nursing and Physiotherapy",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:roLk4NBRz8UC",
+    "authors": "K Cham",
+    "publication": null,
+    "year": null,
+    "cites": 0
+   },
+   {
+    "title": "An Open Letter to the Editor of the NEJM",
+    "link": "https://scholar.google.com/citations?view_op=view_citation&hl=en&user=cncdOe4AAAAJ&pagesize=100&citation_for_view=cncdOe4AAAAJ:LkGwnXOMwfcC",
+    "authors": "ZI Wang, LA Abel, LF Dell’Osso, KM Cham, B Optom",
+    "publication": null,
+    "year": null,
+    "cites": 0
+   }
+  ]
+ }
+}
